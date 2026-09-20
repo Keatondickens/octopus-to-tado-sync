@@ -34,5 +34,7 @@ jobs:
           --tado-password "${{ secrets.TADO_PASSWORD }}" \
           --mprn "${{ secrets.OCTOPUS_MPRN }}" \
           --gas-serial-number "${{ secrets.OCTOPUS_GAS_SERIAL }}" \
-          --octopus-api-key "${{ secrets.OCTOPUS_API_KEY }}"
+          --octopus-api-key "${{ secrets.OCTOPUS_API_KEY }}" \
           --update-tariff
+      
+          
